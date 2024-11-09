@@ -1,0 +1,152 @@
+/* General font and body styles */
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  color: #333333; /* Neutral professional text color */
+}
+
+/* Buttons */
+button1 {
+  width: 300px;
+  height: 100px;
+}
+
+nav li a:hover {
+  background-color: #f4f4f4; /* Subtle hover effect */
+  border-radius: 30px;
+}
+
+.gradient {
+  background-image: linear-gradient(135deg, #0056d6 0%, #00b4d8 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
+}
+
+.page-header {
+  margin-top: 3.5rem;
+  font-size: 40px;
+  color: #222831; /* Slightly darker for better contrast */
+}
+
+.page-header p {
+  margin-left: 50rem;
+  padding: 10rem 5rem 0rem 0rem;
+}
+
+.page-header button {
+  margin-left: 50rem;
+  background-color: #0077b6;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+li {
+  padding-left: 2.5rem;
+}
+
+.dev a {
+  text-decoration: none;
+  color: #212529; /* Neutral and readable link color */
+}
+
+.page.dev {
+  background: #eaf2f8; /* Subtle blue-gray background */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 95%, 0 100%);
+}
+
+.dev .card {
+  width: 350px;
+  height: 500px;
+  box-shadow: 2px 2px 14px 3px #d0d0d0; /* Softer shadow */
+  background-color: #ffffff; /* Clean white card */
+}
+
+.templates {
+  margin-bottom: 10rem;
+  background-size: cover;
+  height: auto;
+  width: auto;
+  padding-bottom: 7rem;
+  background: #f1f1f1;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.templates h1 {
+  padding-top: 3.5rem;
+  text-align: center;
+  color: #1b1f3b; /* Darker professional color */
+}
+
+.templates p {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 18px;
+  color: #595959;
+}
+
+.templates img {
+  padding: rem;
+  border: 0px;
+}
+
+.features h1 {
+  margin: 0rem 0rem 2rem 0rem;
+  text-align: center;
+  color: #111827; /* Slightly darker tone */
+}
+
+.page {
+  margin-top: 2.5rem;
+  background: #f6f8fa; /* Subtle off-white */
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+}
+
+.page-title {
+  margin: 4rem 0rem 2.5rem 7rem;
+  color: #00509e; /* Vibrant header text */
+}
+
+.page-title-para {
+  margin: 0.5rem 0rem 2.5rem 7rem;
+  color: #333333;
+}
+
+form {
+  margin-left: 10rem;
+  padding-left: 10rem;
+}
+
+.Form h1 {
+  margin: 5rem;
+  text-align: center;
+  color: #222831;
+}
+
+.Form div {
+  margin-bottom: 2.5rem;
+}
+
+.Form button {
+  margin-top: 2rem;
+  background-color: #0096c7;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+footer {
+  background-color: #1b263b;
+  color: #e9ecef;
+  padding: 20px;
+  text-align: center;
+}
